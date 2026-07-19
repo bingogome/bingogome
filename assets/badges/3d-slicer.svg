@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="20" role="img" aria-label="3D Slicer">
+  <title>3D Slicer</title>
+  <!-- Official low-resolution mark, rendered in monochrome, from https://www.slicer.org/wiki/Slicer3:Slicer3Brand -->
+  <defs>
+    <filter id="monochrome" color-interpolation-filters="sRGB">
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="90" height="20" fill="#111111"/>
+  <image
+    x="4"
+    y="2"
+    width="16"
+    height="16"
+    filter="url(#monochrome)"
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIKUExURWphYFlbcb3Aw/zEGfLbiwdhnUqvZq6loACgZu5pLdXU2+bm5d/e37S/1K6vpFVCRc/N1PH0+eDf5bO91IyYrtLQ1Ug2QXRpc/f4+vX19mVjYXx2h+Datk9SaL3H1VVYbq240bC5v1NYbWNSVd7d43dvfVVXbdPW4bC6zP39/m58mEs3OamxyN3d3MrCxt7h6Nzi6H94iY+bsHt8jNnf69je5KWqx29+mb7E2m9jaauyx3F/mZimucrU3lpecaiuyZuhqb3G2fb3+IiGl97i6fDy9unm6eLh56230ODg4JeXq/Lx9Obm5nZtelpJTZGZo6SsxkIpJ8jFzdPa4nODnT8mJNDX3VhGTLOvt8HN2n95iJegqcbP2bvJ2pGaoZqWpeLi4kcvLlM+Pejo6PP19+7x9OHm6pSMlaqzzUNEWv////39/fQsF7O90Onu9rjD1FxJStzc3JKRpZGTpVI9P25ia25hatnd5d/f3+np6U84NaWsxO7v7003N+fn556jssbO20AoK6ityL7I2MDK2ZiYrjc4T8DDz6GjvcrS3eTk6Glra3ByhqWjoYOBfvv7/LbB0dLZ4vn4+kcwLmNTVZaXrMnR3V5PW9/g56+4zJqNiJCJhgAAAGVWXYWHmebq7nuCj5uiqY6KnZSXnsLI01FRUXFmdMnR4ZWjumBieNTX22lbYPT09X5+fgOjzs0AAAEwSURBVHjaYliLBgACiGFthU+hk4Rxm5K1lpF+dtZagABiWFu3JkWwPTNasSF2BeMSzbUAAcSwtiZ1fl6xHdOaNWtk+BjL1wIEEMNa1zQDk54FTGzMLCxrbETWAgQQw1oX0+DlK/17OTiZWdZEhqwFCCCGtRPDOh0ZHfpYcziZ19iarwUIIIa102JahOUXds9h5WBbs6p+LUAAMaxtlsv3UItjXCo1W4+p320tQAAxrOWdkJshu1iXh0dykneX6FqAAGJYq6AxM2CegLuQCldQRHrZWoAAYlhroWNVbd/U0brIcNl0MeW1AAHEsHaG2VSvIuco39K5ftqN7GsBAohhbbK6tKq45eopBUmJobO41wIEEMNaz0qu+HD+ktrJgVXs3AlrAQKIAeppEACzAAIMAPp7ZFeM8Z6ZAAAAAElFTkSuQmCC"
+  />
+  <text
+    x="57"
+    y="14"
+    fill="#ffffff"
+    text-anchor="middle"
+    font-family="Verdana, Geneva, DejaVu Sans, sans-serif"
+    font-size="10"
+  >3D SLICER</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" role="img" aria-label="R">
+  <title>R</title>
+  <!-- R language glyph from Devicon: https://github.com/devicons/devicon -->
+  <defs>
+    <filter id="monochrome" color-interpolation-filters="sRGB">
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="0.6" intercept="0.4"/>
+        <feFuncG type="linear" slope="0.6" intercept="0.4"/>
+        <feFuncB type="linear" slope="0.6" intercept="0.4"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="43" height="20" fill="#111111"/>
+  <image x="4" y="2" width="16" height="16" filter="url(#monochrome)" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSIuNzQxIiB4Mj0iNTkwLjg2IiB5MT0iMy42NjYiIHkyPSI1OTMuNzkiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoLjIxNjkgMCAwIC4xNDUyNyAtLjE2IDE0LjExMikiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNjYmNlZDAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM4NDgzOGIiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iYiIgeDE9IjMwMS4wMyIgeDI9IjcwMy4wNyIgeTE9IjE1MS40IiB5Mj0iNTUzLjQ0IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KC4xNzU3MiAwIDAgLjE3OTMxIC0uMTYgMTQuMTEyKSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzI3NmRjMyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzE2NWNhYSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGZpbGw9InVybCgjYSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTY0IDEwMC4zOGMtMzUuMzQ2IDAtNjQtMTkuMTktNjQtNDIuODYzIDAtMjMuNjcyIDI4LjY1NC00Mi44NjMgNjQtNDIuODYzczY0IDE5LjE5IDY0IDQyLjg2M2MwIDIzLjY3Mi0yOC42NTQgNDIuODYzLTY0IDQyLjg2M3ptOS43OTYtNjguOTY3Yy0yNi44NjYgMC00OC42NDYgMTMuMTE5LTQ4LjY0NiAyOS4zMDMgMCAxNi4xODMgMjEuNzggMjkuMzAzIDQ4LjY0NiAyOS4zMDNzNDYuNjkzLTguOTcgNDYuNjkzLTI5LjMwM2MwLTIwLjMyNy0xOS44MjctMjkuMzAzLTQ2LjY5My0yOS4zMDN6Ii8+PHBhdGggZmlsbD0idXJsKCNiKSIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOTcuNDY5IDgxLjAzM3MzLjg3NCAxLjE2OSA2LjEyNCAyLjMwOGMuNzguMzk1IDIuMTMyIDEuMTgzIDMuMTA2IDIuMjE5YTguMzg4IDguMzg4IDAgMCAxIDEuNDIgMi4wNGwxNS4yNjYgMjUuNzQtMjQuNjc0LjAxLTExLjUzNy0yMS42NjZzLTIuMzYzLTQuMDYtMy44MTctNS4yMzdjLTEuMjEzLS45ODItMS43My0xLjMzMS0yLjkyOS0xLjMzMWgtNS44NjJsLjAwNCAyOC4yMTktMjEuODMzLjAwOVY0MS4yNmg0My44NDRzMTkuOTcuMzYgMTkuOTcgMTkuMzU5YzAgMTguOTk5LTE5LjA4MiAyMC40MTMtMTkuMDgyIDIwLjQxM3ptLTkuNDk3LTI0LjEzNy0xMy4yMTgtLjAwOS0uMDA2IDEyLjI1OCAxMy4yMjQtLjAwNXM2LjEyNC0uMDE5IDYuMTI0LTYuMjM1YzAtNi4zNC02LjEyNC02LjAwOS02LjEyNC02LjAwOXoiLz48L3N2Zz4K"/>
+  <text x="32" y="14" fill="#ffffff" text-anchor="middle" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="10">R</text>
+</svg>

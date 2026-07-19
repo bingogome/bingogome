@@ -1,0 +1,68 @@
+name: Generate CV toolkit image
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - assets/badges/**
+      - scripts/generate_toolkit_image.py
+      - .github/workflows/generate-toolkit-image.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: toolkit-image-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install SVG renderer
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends librsvg2-bin
+
+      - name: Compose toolkit SVG
+        run: python3 scripts/generate_toolkit_image.py
+
+      - name: Render 300-DPI PNG
+        run: >-
+          rsvg-convert
+          --dpi-x 300
+          --dpi-y 300
+          --format png
+          --output dist/toolkit-letter.png
+          dist/toolkit-letter.svg
+
+      - name: Inspect generated files
+        run: file dist/toolkit-letter.svg dist/toolkit-letter.png
+
+      - name: Verify CV print dimensions
+        run: >-
+          python3 -c
+          "import pathlib, struct;
+          data = pathlib.Path('dist/toolkit-letter.png').read_bytes()[:24];
+          width, height = struct.unpack('>II', data[16:24]);
+          assert (width, height) == (2250, 282),
+          f'expected 2250x282px, got {width}x{height}px';
+          print(f'Validated {width}x{height}px (7.5 inches wide at 300 DPI)')"
+
+      - name: Upload CV-ready toolkit image
+        uses: actions/upload-artifact@v4
+        with:
+          name: toolkit-us-letter-300dpi
+          path: |
+            dist/toolkit-letter.png
+            dist/toolkit-letter.svg
+          if-no-files-found: error
+          retention-days: 30
