@@ -37,7 +37,7 @@ With a track record of publications on spatial technologies, including robotics 
 
 ## 02 / Projects
 
-| Name | Project | Description | Contribution | Stars |
+| Name | Project | Description | Contribution | Stars<br><img src="assets/table-column-spacer.svg" width="180" height="1" alt=""> |
 |---|---|---|---|:---:|
 | Feature on NVIDIA CES | [**Moon Surgical × NVIDIA**][moon-video] | Industry work featured during NVIDIA CES. | IsaacSim work |  |
 | ⭐ XLeRobot | [**Vector-Wangel/XLeRobot**][xlerobot] | Low-cost dual-arm mobile robot for embodied AI. | Core developer: LeRobot integration, newer gens hardware, SDK | [![Stars][xlerobot-stars]][xlerobot-stargazers] |
