@@ -62,8 +62,6 @@
   <img height="24" src="assets/badges/codex.svg" alt="OpenAI Codex">
 </p>
 
-<br>
-
 ## 03 / Projects
 
 - << **Feature on NVIDIA CES** >> [**Moon Surgical × NVIDIA**][moon-video] - Industry work featured during NVIDIA CES. [IsaacSim work]
