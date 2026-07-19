@@ -70,12 +70,12 @@ def parse_arguments() -> argparse.Namespace:
 
 
 def toolkit_image_entries(readme: str) -> list[tuple[str, str]]:
-    heading = "## 03 / Toolkit"
-    start = readme.find(heading)
-    if start == -1:
-        raise ValueError(f"Could not find {heading!r} in {README_PATH}")
+    heading_match = re.search(r"^##\s+\d+\s+/\s+Toolkit\s*$", readme, re.MULTILINE)
+    if heading_match is None:
+        raise ValueError(f"Could not find the numbered Toolkit heading in {README_PATH}")
 
-    next_heading = readme.find("\n## ", start + len(heading))
+    start = heading_match.start()
+    next_heading = readme.find("\n## ", heading_match.end())
     section = readme[start : next_heading if next_heading != -1 else len(readme)]
 
     entries: list[tuple[str, str]] = []
