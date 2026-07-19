@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" viewBox="0 0 30 20" role="img" aria-labelledby="title">
   <title id="title">Production robotics</title>
-  <rect width="30" height="20" rx="3" fill="#111111"/>
+  <rect width="30" height="20" rx="3" fill="#57606A"/>
   <g fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
     <rect x="5" y="4" width="13" height="4.5" rx="1"/>
     <rect x="5" y="11.5" width="13" height="4.5" rx="1"/>
