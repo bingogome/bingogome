@@ -37,18 +37,18 @@ With a track record of publications on spatial technologies, including robotics 
 
 ## 02 / Projects
 
-| Name | Project | Description | Contribution | CI | Stars |
-|---|---|---|---|:---:|:---:|
-| Feature on NVIDIA CES | [**Moon Surgical × NVIDIA**][moon-video] | Industry work featured during NVIDIA CES. | IsaacSim work |  |  |
-| ⭐ XLeRobot | [**Vector-Wangel/XLeRobot**][xlerobot] | Low-cost dual-arm mobile robot for embodied AI. | Core developer: LeRobot integration, newer gens hardware, SDK |  | [![Stars][xlerobot-stars]][xlerobot-stargazers] |
-| LeRobot Forks | [**bingogome/lerobot**][lerobot] / [**Vector-Wangel/lerobot-xlerobot**][lerobot-xlerobot] | Forks of LeRobot & XLeRobot integration. | Owner / core developer: XLeRobot dev | [![CI][lerobot-xlerobot-ci]][lerobot-xlerobot-actions] | [![Stars][lerobot-xlerobot-stars]][lerobot-xlerobot-stargazers] [![Stars][lerobot-stars]][lerobot-stargazers] |
-| Brainbot | [**bingogome/brainbot**][brainbot] | Modular robot control stack for teleoperation, data collection, AI inference, camera streaming, and visualization. | Owner |  | [![Stars][brainbot-stars]][brainbot-stargazers] |
-| ⭐ SMSL-Imitate | [**SMSL-Project/imitate**][imitate] | Serialized state-machine generation and GenSim training for language-conditioned robot manipulation. | Owner |  | [![Stars][imitate-stars]][imitate-stargazers] |
-| dARt Vinci | [**SMSL-Project/dart-vinci**][dart-vinci] | da Vinci surgical robot across Isaac Sim, Meta Quest 3. | Owner |  | [![Stars][dart-vinci-stars]][dart-vinci-stargazers] |
-| Unity SO-101 | [**SMSL-Project/unity-so101**][unity-so101] | Meta Quest hand-tracking teleoperation for SO-101 robots using Unity and ZMQ. | Contributor |  | [![Stars][unity-so101-stars]][unity-so101-stargazers] |
-| Fantronics Endoscope | [**SMSL-Project/ros1-fantronics-endoscope**][ros1-endoscope] / [**jmz3/EndoscopeCamera**][endoscope-camera] | USB endoscope, ROS Noetic multi-camera raw and compressed streaming. | Contributor |  | [![Stars][ros1-endoscope-stars]][ros1-endoscope-stargazers] [![Stars][endoscope-camera-stars]][endoscope-camera-stargazers] |
-| ⭐ Segment Any Medical Model | [**samm**][samm] | SAM and SAM variants in 3D Slicer. | Owner | [![CI][samm-ci]][samm-actions] | [![Stars][samm-stars]][samm-stargazers] |
-| Slicer Fast Prototyping Template | [**slicer-fast-proto-template**][slicer-template] | 3D Slicer template for model inference and fine-tuning services. | Owner | [![CI][slicer-template-ci]][slicer-template-actions] | [![Stars][slicer-template-stars]][slicer-template-stargazers] |
+| Name | Project | Description | Contribution | Stars |
+|---|---|---|---|:---:|
+| Feature on NVIDIA CES | [**Moon Surgical × NVIDIA**][moon-video] | Industry work featured during NVIDIA CES. | IsaacSim work |  |
+| ⭐ XLeRobot | [**Vector-Wangel/XLeRobot**][xlerobot] | Low-cost dual-arm mobile robot for embodied AI. | Core developer: LeRobot integration, newer gens hardware, SDK | [![Stars][xlerobot-stars]][xlerobot-stargazers] |
+| LeRobot Forks | [**bingogome/lerobot**][lerobot] / [**Vector-Wangel/lerobot-xlerobot**][lerobot-xlerobot] | Forks of LeRobot & XLeRobot integration. | Owner / core developer: XLeRobot dev | [![Stars][lerobot-xlerobot-stars]][lerobot-xlerobot-stargazers] [![Stars][lerobot-stars]][lerobot-stargazers] |
+| Brainbot | [**bingogome/brainbot**][brainbot] | Modular robot control stack for teleoperation, data collection, AI inference, camera streaming, and visualization. | Owner | [![Stars][brainbot-stars]][brainbot-stargazers] |
+| ⭐ SMSL-Imitate | [**SMSL-Project/imitate**][imitate] | Serialized state-machine generation and GenSim training for language-conditioned robot manipulation. | Owner | [![Stars][imitate-stars]][imitate-stargazers] |
+| dARt Vinci | [**SMSL-Project/dart-vinci**][dart-vinci] | da Vinci surgical robot across Isaac Sim, Meta Quest 3. | Owner | [![Stars][dart-vinci-stars]][dart-vinci-stargazers] |
+| Unity SO-101 | [**SMSL-Project/unity-so101**][unity-so101] | Meta Quest hand-tracking teleoperation for SO-101 robots using Unity and ZMQ. | Contributor | [![Stars][unity-so101-stars]][unity-so101-stargazers] |
+| Fantronics Endoscope | [**SMSL-Project/ros1-fantronics-endoscope**][ros1-endoscope] / [**jmz3/EndoscopeCamera**][endoscope-camera] | USB endoscope, ROS Noetic multi-camera raw and compressed streaming. | Contributor | [![Stars][ros1-endoscope-stars]][ros1-endoscope-stargazers] [![Stars][endoscope-camera-stars]][endoscope-camera-stargazers] |
+| ⭐ Segment Any Medical Model | [**samm**][samm] | SAM and SAM variants in 3D Slicer. | Owner | [![Stars][samm-stars]][samm-stargazers] |
+| Slicer Fast Prototyping Template | [**slicer-fast-proto-template**][slicer-template] | 3D Slicer template for model inference and fine-tuning services. | Owner | [![Stars][slicer-template-stars]][slicer-template-stargazers] |
 
 <!-- Project links -->
 [moon-video]: https://www.youtube.com/live/0NBILspM4c4?t=183
@@ -63,14 +63,6 @@ With a track record of publications on spatial technologies, including robotics 
 [endoscope-camera]: https://github.com/jmz3/EndoscopeCamera
 [samm]: https://github.com/bingogome/samm
 [slicer-template]: https://github.com/bingogome/slicer-fast-proto-template
-
-<!-- CI badges and links -->
-[lerobot-xlerobot-ci]: https://github.com/Vector-Wangel/lerobot-xlerobot/actions/workflows/nightly.yml/badge.svg?branch=dev-xlerobot
-[lerobot-xlerobot-actions]: https://github.com/Vector-Wangel/lerobot-xlerobot/actions/workflows/nightly.yml?query=branch%3Adev-xlerobot
-[samm-ci]: https://github.com/bingogome/samm/actions/workflows/ci.yml/badge.svg?branch=main
-[samm-actions]: https://github.com/bingogome/samm/actions
-[slicer-template-ci]: https://github.com/bingogome/slicer-fast-proto-template/actions/workflows/ci.yml/badge.svg?branch=main
-[slicer-template-actions]: https://github.com/bingogome/slicer-fast-proto-template/actions/workflows/ci.yml
 
 <!-- Star badges and links -->
 [xlerobot-stars]: https://img.shields.io/github/stars/Vector-Wangel/XLeRobot?style=flat-square&logo=github&label=stars&color=111111
@@ -129,7 +121,7 @@ With a track record of publications on spatial technologies, including robotics 
 
 ## 04 / Education
 
-**2021—2025**  
+**2021-2025**  
 Ph.D. in Computer Science  
 Johns Hopkins University
 
@@ -137,11 +129,11 @@ Johns Hopkins University
 M.S.E. in Computer Science  
 Johns Hopkins University
 
-**2019—2021**  
+**2019-2021**  
 M.S.E. in Robotics  
 Johns Hopkins University
 
-**2015—2019**  
+**2015-2019**  
 B.A.Sc. in Electrical Engineering  
 Minor in Computer Science  
 University of British Columbia
