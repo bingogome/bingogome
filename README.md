@@ -37,18 +37,18 @@ With a track record of publications on spatial technologies, including robotics 
 
 ## 02 / Projects
 
-| Name | Project | Description | Contribution | Stars<br><img src="assets/table-column-spacer.svg" width="180" height="1" alt=""> |
-|---|---|---|---|:---:|
-| Feature on NVIDIA CES | [**Moon Surgical × NVIDIA**][moon-video] | Industry work featured during NVIDIA CES. | IsaacSim work |  |
-| ⭐ XLeRobot | [**Vector-Wangel/XLeRobot**][xlerobot] | Low-cost dual-arm mobile robot for embodied AI. | Core developer: LeRobot integration, newer gens hardware, SDK | [![Stars][xlerobot-stars]][xlerobot-stargazers] |
-| LeRobot Forks | [**bingogome/lerobot**][lerobot] / [**Vector-Wangel/lerobot-xlerobot**][lerobot-xlerobot] | Forks of LeRobot & XLeRobot integration. | Owner / core developer: XLeRobot dev | [![Stars][lerobot-xlerobot-stars]][lerobot-xlerobot-stargazers] [![Stars][lerobot-stars]][lerobot-stargazers] |
-| Brainbot | [**bingogome/brainbot**][brainbot] | Modular robot control stack for teleoperation, data collection, AI inference, camera streaming, and visualization. | Owner | [![Stars][brainbot-stars]][brainbot-stargazers] |
-| ⭐ SMSL-Imitate | [**SMSL-Project/imitate**][imitate] | Serialized state-machine generation and GenSim training for language-conditioned robot manipulation. | Owner | [![Stars][imitate-stars]][imitate-stargazers] |
-| dARt Vinci | [**SMSL-Project/dart-vinci**][dart-vinci] | da Vinci surgical robot across Isaac Sim, Meta Quest 3. | Owner | [![Stars][dart-vinci-stars]][dart-vinci-stargazers] |
-| Unity SO-101 | [**SMSL-Project/unity-so101**][unity-so101] | Meta Quest hand-tracking teleoperation for SO-101 robots using Unity and ZMQ. | Contributor | [![Stars][unity-so101-stars]][unity-so101-stargazers] |
-| Fantronics Endoscope | [**SMSL-Project/ros1-fantronics-endoscope**][ros1-endoscope] / [**jmz3/EndoscopeCamera**][endoscope-camera] | USB endoscope, ROS Noetic multi-camera raw and compressed streaming. | Contributor | [![Stars][ros1-endoscope-stars]][ros1-endoscope-stargazers] [![Stars][endoscope-camera-stars]][endoscope-camera-stargazers] |
-| ⭐ Segment Any Medical Model | [**samm**][samm] | SAM and SAM variants in 3D Slicer. | Owner | [![Stars][samm-stars]][samm-stargazers] |
-| Slicer Fast Prototyping Template | [**slicer-fast-proto-template**][slicer-template] | 3D Slicer template for model inference and fine-tuning services. | Owner | [![Stars][slicer-template-stars]][slicer-template-stargazers] |
+| Name<br><img src="assets/table-name-column-spacer.svg" width="240" height="1" alt=""> | Project | Description |
+|---|---|---|
+| Feature on NVIDIA CES | [**Moon Surgical × NVIDIA**][moon-video] | Industry work featured during NVIDIA CES. [IsaacSim work] |
+| ⭐ XLeRobot<br>[![Stars][xlerobot-stars]][xlerobot-stargazers] | [**XLeRobot**][xlerobot] | Low-cost dual-arm mobile robot for embodied AI. [Core developer: LeRobot integration, newer gens hardware, SDK] |
+| LeRobot Forks<br>[![Stars][lerobot-xlerobot-stars]][lerobot-xlerobot-stargazers] [![Stars][lerobot-stars]][lerobot-stargazers] | [**lerobot**][lerobot] / [**lerobot-xlerobot**][lerobot-xlerobot] | Forks of LeRobot & XLeRobot integration. [Owner / core developer: XLeRobot dev] |
+| Brainbot<br>[![Stars][brainbot-stars]][brainbot-stargazers] | [**brainbot**][brainbot] | Modular robot control stack for teleoperation, data collection, AI inference, camera streaming, and visualization. [Owner] |
+| ⭐ SMSL-Imitate<br>[![Stars][imitate-stars]][imitate-stargazers] | [**imitate**][imitate] | Serialized state-machine generation and GenSim training for language-conditioned robot manipulation. [Owner] |
+| dARt Vinci<br>[![Stars][dart-vinci-stars]][dart-vinci-stargazers] | [**dart-vinci**][dart-vinci] | da Vinci surgical robot across Isaac Sim, Meta Quest 3. [Owner] |
+| Unity SO-101<br>[![Stars][unity-so101-stars]][unity-so101-stargazers] | [**unity-so101**][unity-so101] | Meta Quest hand-tracking teleoperation for SO-101 robots using Unity and ZMQ. [Contributor] |
+| Fantronics Endoscope<br>[![Stars][ros1-endoscope-stars]][ros1-endoscope-stargazers] [![Stars][endoscope-camera-stars]][endoscope-camera-stargazers] | [**ros1-fantronics-endoscope**][ros1-endoscope] / [**EndoscopeCamera**][endoscope-camera] | USB endoscope, ROS Noetic multi-camera raw and compressed streaming. [Contributor] |
+| ⭐ Segment Any Medical Model<br>[![Stars][samm-stars]][samm-stargazers] | [**samm**][samm] | SAM and SAM variants in 3D Slicer. [Owner] |
+| Slicer Fast Prototyping Template<br>[![Stars][slicer-template-stars]][slicer-template-stargazers] | [**slicer-fast-proto-template**][slicer-template] | 3D Slicer template for model inference and fine-tuning services. [Owner] |
 
 <!-- Project links -->
 [moon-video]: https://www.youtube.com/live/0NBILspM4c4?t=183
